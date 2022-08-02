@@ -10,7 +10,7 @@ def sms_reply():
     resp = MessagingResponse()
 
     # Add a message
-    resp.message("The Robots are coming! Head for the hills!")
+    resp.message("TwilioQuest rules")
 
     return str(resp)
 
